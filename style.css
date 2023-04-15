@@ -28,11 +28,7 @@
     height: 8vh;
   }
   
-  main {
-    background: url("fundo.jpg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-  }
+
   
   .nav-list {
     list-style: none;
@@ -74,8 +70,4 @@
       transform: translateX(100%);
       transition: transform 0.3s ease-in;
     }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
- 
+
