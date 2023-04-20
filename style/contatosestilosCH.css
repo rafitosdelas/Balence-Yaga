@@ -8,75 +8,55 @@
  margin: 0px;  
  box-sizing: border-box;
 }
-/* depois de zerar começamos com a interfase*/
+
 :root{
 font-size: 62,5%;
 --nav-bg-color:#23232e;
 --nav-text-color: white;
-/* --nav-button: rgb(255, 255, 255); */
-/* --nave-clic: rgb(55, 0, 255); */ 
-
-/*definir variaveis para button*/
-
 }
 
 ul{  
     display: flex; 
-    list-style: none; /*tirar as bolinhas*/
-    gap: 3rem; /*insere espaço entre eles*/   
+    list-style: none; 
+    gap: 3rem; 
 }
 button{
     
     padding: 1rem 2,7rem;
     background-color:#23232e;
     color: white;
-    border-radius: 0.8rem; /*arendondar cantos*/
+    border-radius: 0.8rem;
 }
 a{
-    /* Para arrumar as opçoes do cabeçalho */
     text-decoration: none;
     color: white;
 }
 
-.fdr{
-    /* rodapé */
-
-   background-color:#23232e;
-   height: 80px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-}
-
 .TextoGPT{
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     max-width: 80%;
     height: 220px;
     border: 2px solid #23232e;
     display: flex;
+    border-radius: 20px ;
 }
-
-
 
 h2 {
-    /* texto para o cliente */
+
     text-align: center;
-    font-size: 17px; /*tamanho da letra*/
-    padding: 1rem; /*tamanho do espaço disponivel*/
+    font-size: 17px; 
+    padding: 1rem; 
     margin-bottom: 2rem; 
-    /* background-color: rgba(1, 241, 81, 0.877);
-    color: black; */
-    height: 10rem; /*espaço entre o login*/
+    height: 10rem; 
 }
 label{
-    margin-top: 1rem; /*espaço entre as opções de login*/
+    margin-top: 1rem;
 }
-/* tamanho das opções */
+
 form{
-    max-width: 80%; /*area do login*/
+    max-width: 80%; 
     margin: auto;
     margin-top: 40px;
     padding: 1rem; 
@@ -90,12 +70,27 @@ form{
 }
 input{
     padding: 0.5rem;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 0.5rem;
+    margin-top: 1rem;
 }
+
 .button2{
-    padding: 1rem 1,6rem;
-    /* background-color:cornflowerblue; */  
+    padding: 1rem 1,6rem; 
     color: blue;
-    border-radius: 0.8rem; /*arendondar cantos*/
+    border-radius: 0.8rem;
+}
+
+.button_cad{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.button_cad:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    margin-top: 80px;
 }

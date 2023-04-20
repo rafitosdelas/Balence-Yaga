@@ -5,10 +5,15 @@
 }
 
 .Propaganda {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    max-width: 80%;
     margin-top: 60px;
+    position: sticky;
+    top: 0;
+    list-style: none;
+    border-radius: 20px;
+    height: 190px;
+    width: 1080px;
   }
 
 .login {
@@ -16,5 +21,25 @@
   display: flex;
   align-items: center;
   align-content: center;
+}
 
+.text_index{
+  max-width: 80%;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 80px;
+  line-height: 30px;
+  background-color: #23232E;
+  color: white;
+  padding: 30px;
+  border-radius: 20px ;
+  margin-bottom: 80px;
+}
+
+.paragraphs_index p{
+  margin-bottom: 2rem;
+}
+
+.Propaganda img{
+  border-radius: 20px;
 }

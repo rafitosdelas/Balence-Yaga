@@ -1,51 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Sora&display=swap');
 
 * {
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-* {
-    box-sizing: border-box;
+main{
+    margin-bottom: 80px;
 }
+
 .vitrine {
     display: block;
     margin: 50px auto;
-    max-width: 1300px;
+    max-width: 80%;
     text-align: center;
     width: 100%;
 }
 
 .vitrine2 {
     display: block;
-    max-width: 1300px;
+    max-width: 80%;
     text-align: center;
     width: 100%;
 }
 
-
-
 body {
-    background: #ffffff;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #ffffff; 
     margin: 0;
     padding: 0;
 }
+
 ul {
     padding: 0;
     margin: 0;
 }
+
 ul li {
     list-style: none;
 }
+
 .product-list {
     align-items: center;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 80%;
     width: 100%;
     font-style: normal;
-    
 }
 @media (max-width: 991px) {
     .product-list {
@@ -55,12 +56,14 @@ ul li {
 .product-item {
     border: 1px solid #e1e1e1;
     cursor: pointer;
-    margin: 15px 40px;       /* distancia entre os quadrantes */ 
     max-width: 300px;
     transition: 0.2s;
     width: 100%;
     background-color: 
     #24242c;
+    border-radius: 20px;
+    margin: 40px 40px 40px 40px;
+
 }
 .product-item .product-link {
     color: #555;
