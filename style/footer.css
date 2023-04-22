@@ -1,0 +1,54 @@
+*:root{
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Sora&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    height: 460px;
+    max-width: 100vw;
+    background-color: #23232E;
+    color: white;
+    padding: 30px 30px;
+    font-size: 16px;
+}
+
+.facebook{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.instagram{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.twitter{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.agradecimentos{
+    width: 82%;
+    margin: 10px;
+
+}
+
+.redessociais{
+    text-align: center;
+
+}
+
+.sustentabilidade{
+    width: 50%;
+    margin: 10px;
+
+}
+
+.rodape{
+    display: flex;
+}
